@@ -1488,6 +1488,10 @@ header .header-desk__nav ul li a {
   background-image: url(../assets/img/category/skud/acces2.jpg);
 }
 
+.category .category_container .gsm_cover {
+  background-image: url(../assets/img/pages/voip6.webp);
+}
+
 .category .category_container .mod_cover {
   background-image: url(../assets/img/pages/voip5.webp);
 }
