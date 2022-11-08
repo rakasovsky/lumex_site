@@ -1337,6 +1337,54 @@ header .header-desk__nav ul li a {
   background-size: cover;
 }
 
+.lumex_team .prot1 {
+  background-image: url(../assets/img/pages/prot.jpeg);
+  background-size: cover;
+}
+
+.lumex_team .prot3 {
+  background-image: url(../assets/img/pages/photo_2022-10-17_12-57-38.jpg);
+  background-size: cover;
+}
+
+.lumex_team .prot5 {
+  background-image: url(../assets/img/pages/photo_2022-10-17_12-57-38.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.lumex_team .prot6 {
+  background-image: url(../assets/img/pages/mod2.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.lumex_team .sks1 {
+  background-image: url(../assets/img/pages/sks1.jpg);
+  background-size: cover;
+}
+
+.lumex_team .sks3 {
+  background-image: url(../assets/img/pages/sks4.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.lumex_team .sks6 {
+  background-image: url(../assets/img/pages/mod1.jpg);
+  background-size: cover;
+}
+
+.lumex_team .ivr1 {
+  background-image: url(../assets/img/pages/ivr2.jpeg);
+  background-size: cover;
+}
+
+.lumex_team .ivr3 {
+  background-image: url(../assets/img/pages/ivr4.jpeg);
+  background-size: cover;
+}
+
 .lumex_team .mod1 {
   background-image: url(../assets/img/pages/mod1.jpg);
   background-size: cover;
@@ -1492,8 +1540,16 @@ header .header-desk__nav ul li a {
   background-image: url(../assets/img/pages/voip6.webp);
 }
 
+.category .category_container .sks_cover {
+  background-image: url(../assets/img/pages/sks2.jpg);
+}
+
 .category .category_container .mod_cover {
   background-image: url(../assets/img/pages/voip5.webp);
+}
+
+.category .category_container .ivr_cover {
+  background-image: url(../assets/img/pages/ivr1.jpeg);
 }
 
 .category .category_container .webpanel {
@@ -1502,6 +1558,10 @@ header .header-desk__nav ul li a {
 
 .category .category_container .ast_cover {
   background-image: url(../assets/img/pages/photo_2022-10-17_12-57-38.jpg);
+}
+
+.category .category_container .prot_cover {
+  background-image: url(../assets/img/pages/ast3.jpg);
 }
 
 .category .category_container .category_cover:before {
@@ -1600,6 +1660,48 @@ header .header-desk__nav ul li a {
 
 .category_diogram .auto_skud {
   background-image: url(../assets/img/category/skud/ac-min.jpg);
+  padding-top: 13%;
+  background-size: cover;
+}
+
+.category_diogram .prot2 {
+  background-image: url(../assets/img/pages/ast2.jpg);
+  padding-top: 13%;
+  background-size: cover;
+}
+
+.category_diogram .prot4 {
+  background-image: url(../assets/img/pages/prot2.jpg);
+  padding-top: 13%;
+  background-size: cover;
+}
+
+.category_diogram .prot5 {
+  background-image: url(../assets/img/pages/voip6.webp);
+  padding-top: 13%;
+  background-size: cover;
+}
+
+.category_diogram .ivr2 {
+  background-image: url(../assets/img/pages/ivr3.jpeg);
+  padding-top: 13%;
+  background-size: cover;
+}
+
+.category_diogram .sks2 {
+  background-image: url(../assets/img/pages/sks3.jpg);
+  padding-top: 13%;
+  background-size: cover;
+}
+
+.category_diogram .sks7 {
+  background-image: url(../assets/img/pages/mod2.jpg);
+  padding-top: 13%;
+  background-size: cover;
+}
+
+.category_diogram .sks5 {
+  background-image: url(../assets/img/pages/sks5.jpg);
   padding-top: 13%;
   background-size: cover;
 }

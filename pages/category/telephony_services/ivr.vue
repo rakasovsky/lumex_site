@@ -8,7 +8,7 @@
         <h2>Интеграция систем контроля и управления доступом</h2>
       </div>
       <div class="category_container">
-        <div class="category_cover skud_cover lumex__content"></div>
+        <div class="category_cover ivr_cover lumex__content"></div>
         <div class="category_text lumex__video">
           <div class="cloud__block4 sks">
             <h3 class="h_title fs42">{{ $t("tsivr1") }}</h3>
@@ -47,7 +47,7 @@
           </ul>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right ivr1 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk IVR</span>
           <svg>
@@ -75,7 +75,7 @@
           </ul>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img ivr2 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>IVR professional </span>
           <svg>
@@ -96,7 +96,7 @@
           <p class="txt3">{{ $t("tsivr4_2") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right ivr3 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk IVR</span>
           <svg>

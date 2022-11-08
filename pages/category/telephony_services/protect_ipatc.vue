@@ -8,7 +8,7 @@
         <h2>Интеграция систем контроля и управления доступом</h2>
       </div>
       <div class="category_container">
-        <div class="category_cover skud_cover lumex__content"></div>
+        <div class="category_cover prot_cover lumex__content"></div>
         <div class="category_text lumex__video">
           <div class="cloud__block4 sks">
             <h3 class="h_title fs42">{{ $t("tsppt1") }}</h3>
@@ -39,7 +39,7 @@
           <p class="txt3">{{ $t("tsppt2_3") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right prot1 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -67,7 +67,7 @@
           </ul>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img prot2 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -92,7 +92,7 @@
           <p class="txt3">{{ $t("tsppt4_6") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right prot cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -115,7 +115,7 @@
           </div>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img prot4 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -139,7 +139,7 @@
           <p class="txt3">{{ $t("tsppt6_5") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right prot5 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -184,7 +184,7 @@
           <p class="txt3">{{ $t("tsppt9_5") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right prot6 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -204,7 +204,7 @@
           <a href="/contact"><p class="txt3">{{ $t("tsppt11") }}</p></a>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img prot5 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
