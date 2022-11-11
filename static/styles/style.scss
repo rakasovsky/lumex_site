@@ -1178,6 +1178,14 @@ header {
         background-image: url(../assets/img/category/skud/cov.jpg);
         background-size: cover;
     }
+    .que1 {
+        background-image: url(../assets/img/pages/qu1.jpg);
+        background-size: cover;
+    }
+    .que2 {
+        background-image: url(../assets/img/pages/qu2.jpg);
+        background-size: cover;
+    }
     .prot1 {
         background-image: url(../assets/img/pages/prot.jpeg);
         background-size: cover;
@@ -1350,6 +1358,9 @@ header {
         .ivr_cover {
             background-image: url(../assets/img/pages/ivr1.jpeg);
         }
+        .qu_cover {
+            background-image: url(../assets/img/pages/voip6.webp);
+        }
         .webpanel {
             background-image: url(../assets/img/dashboard/g1.png);
         }
@@ -1446,6 +1457,16 @@ header {
         }
         .prot2 {
             background-image: url(../assets/img/pages/ast2.jpg);
+            padding-top: 13%;
+            background-size: cover;
+        }
+        .que3 {
+            background-image: url(../assets/img/pages/ast2.jpg);
+            padding-top: 13%;
+            background-size: cover;
+        }
+        .que4 {
+            background-image: url(../assets/img/pages/qu3.jpg);
             padding-top: 13%;
             background-size: cover;
         }

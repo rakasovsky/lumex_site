@@ -1337,6 +1337,16 @@ header .header-desk__nav ul li a {
   background-size: cover;
 }
 
+.lumex_team .que1 {
+  background-image: url(../assets/img/pages/qu1.jpg);
+  background-size: cover;
+}
+
+.lumex_team .que2 {
+  background-image: url(../assets/img/pages/qu2.jpg);
+  background-size: cover;
+}
+
 .lumex_team .prot1 {
   background-image: url(../assets/img/pages/prot.jpeg);
   background-size: cover;
@@ -1552,6 +1562,10 @@ header .header-desk__nav ul li a {
   background-image: url(../assets/img/pages/ivr1.jpeg);
 }
 
+.category .category_container .qu_cover {
+  background-image: url(../assets/img/pages/voip6.webp);
+}
+
 .category .category_container .webpanel {
   background-image: url(../assets/img/dashboard/g1.png);
 }
@@ -1666,6 +1680,18 @@ header .header-desk__nav ul li a {
 
 .category_diogram .prot2 {
   background-image: url(../assets/img/pages/ast2.jpg);
+  padding-top: 13%;
+  background-size: cover;
+}
+
+.category_diogram .que3 {
+  background-image: url(../assets/img/pages/ast2.jpg);
+  padding-top: 13%;
+  background-size: cover;
+}
+
+.category_diogram .que4 {
+  background-image: url(../assets/img/pages/qu3.jpg);
   padding-top: 13%;
   background-size: cover;
 }

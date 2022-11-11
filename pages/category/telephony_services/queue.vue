@@ -8,7 +8,7 @@
         <h2>Интеграция систем контроля и управления доступом</h2>
       </div>
       <div class="category_container">
-        <div class="category_cover skud_cover lumex__content"></div>
+        <div class="category_cover qu_cover lumex__content"></div>
         <div class="category_text lumex__video">
           <div class="cloud__block4 sks">
             <h3 class="h_title fs42">{{ $t("tsq1") }}</h3>
@@ -37,7 +37,7 @@
           <p class="txt3">{{ $t("tsq2_1") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right que2 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -58,7 +58,7 @@
           <p class="txt3">{{ $t("tsq3_1") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img que3 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -80,7 +80,7 @@
           <p class="txt3">{{ $t("tsq4_3") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right que1 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -100,7 +100,7 @@
           <p class="txt3">{{ $t("tsq5_1") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img que4 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -122,7 +122,7 @@
           </div>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right  cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
