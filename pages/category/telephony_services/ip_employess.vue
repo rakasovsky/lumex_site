@@ -3,12 +3,12 @@
     <Header />
     <section class="category">
       <div class="seo">
-        <h1>Организация систем контроля доступа в Харькове</h1>
-        <h2>Продажа СКУД ( сетевые, биометрические, турникеты, автономные)</h2>
-        <h2>Интеграция систем контроля и управления доступом</h2>
+        <h1>IP-ТЕЛЕФОНІЯ ДЛЯ ДИСТАНЦІЙНИХ СПІВРОБІТНИКІВ</h1>
+        <h2>ДИСТАНЦІЙНА РОБОТА З IP-АТС</h2>
+        <h2>ДЛЯ МЕНЕДЖЕРІВ І СУПЕРВАЙЗЕРІВ CALL-ЦЕНТРІВ</h2>
       </div>
       <div class="category_container">
-        <div class="category_cover skud_cover lumex__content"></div>
+        <div class="category_cover it_cover lumex__content"></div>
         <div class="category_text lumex__video">
           <div class="cloud__block4 sks">
             <h3 class="h_title fs42">{{ $t("tsipem1") }}</h3>
@@ -55,7 +55,7 @@
           <p class="txt3">{{ $t("tsipem3_7") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right it2 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -85,7 +85,7 @@
           <p class="txt3">{{ $t("tsipem5_5") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img supp2 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -110,7 +110,7 @@
           <p class="txt3">{{ $t("tsipem6_6") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right it5 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -133,7 +133,7 @@
           <p class="txt3">{{ $t("tsipem7_4") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img supp4 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -156,7 +156,7 @@
           <p class="txt3">{{ $t("tsipem8_4") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right mod1 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -186,7 +186,7 @@
           </ul>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img prot5 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -220,7 +220,7 @@
           </ul>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right prot5 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -244,7 +244,7 @@
           <p class="txt3">{{ $t("tsipem10_5") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img que3 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -279,7 +279,7 @@
           <p class="txt3">{{ $t("tsipem11_16") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right prot6  cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -306,7 +306,7 @@
           <p class="txt3">{{ $t("tsipem12_8") }}</p>     
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img supp4 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -328,7 +328,7 @@
           </div>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right ast3 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>

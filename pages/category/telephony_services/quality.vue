@@ -3,12 +3,12 @@
     <Header />
     <section class="category">
       <div class="seo">
-        <h1>Организация систем контроля доступа в Харькове</h1>
-        <h2>Продажа СКУД ( сетевые, биометрические, турникеты, автономные)</h2>
-        <h2>Интеграция систем контроля и управления доступом</h2>
+        <h1>Пріоритезація трафіку для покращення якості голосу в IP-телефонії</h1>
+        <h2>Пріоритезації трафіку (QoS) в IP-телефонії</h2>
+        <h2>Роботи з налаштування функцій пріоритезації трафіку (QoS)</h2>
       </div>
       <div class="category_container">
-        <div class="category_cover skud_cover lumex__content"></div>
+        <div class="category_cover qua_cover lumex__content"></div>
         <div class="category_text lumex__video">
           <div class="cloud__block4 sks">
             <h3 class="h_title fs42">{{ $t("tsqua1") }}</h3>
@@ -47,7 +47,7 @@
           <p class="txt3">{{ $t("tsqua2_4") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right qua2 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -70,7 +70,7 @@
           <p class="txt3">{{ $t("tsqua3_3") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img qua3 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -92,7 +92,7 @@
           <p class="txt3">{{ $t("tsqua4_3") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right qua4 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -116,7 +116,7 @@
           <p class="txt3">{{ $t("tsqu5_5") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img qua5 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -138,7 +138,7 @@
           </div>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right qua6 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>

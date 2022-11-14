@@ -3,12 +3,12 @@
     <Header />
     <section class="category">
       <div class="seo">
-        <h1>Организация систем контроля доступа в Харькове</h1>
-        <h2>Продажа СКУД ( сетевые, биометрические, турникеты, автономные)</h2>
-        <h2>Интеграция систем контроля и управления доступом</h2>
+        <h1>ТЕХНІЧНА ПІДТРИМКА IP-АТС ASTERISK</h1>
+        <h2>IP-АТС на базі Asterisk</h2>
+        <h2>ТЕХПІДТРИМКА ASTERISK</h2>
       </div>
       <div class="category_container">
-        <div class="category_cover skud_cover lumex__content"></div>
+        <div class="category_cover supp_cover lumex__content"></div>
         <div class="category_text lumex__video">
           <div class="cloud__block4 sks">
             <h3 class="h_title fs42">{{ $t("tstsupp1") }}</h3>
@@ -34,7 +34,7 @@
           <p class="txt3">{{ $t("tstsupp2_1") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right supp1 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -60,7 +60,7 @@
           <p class="txt3">{{ $t("tstsupp3_6") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img supp2 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -91,7 +91,7 @@
           </ul>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right supp3 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -120,7 +120,7 @@
           <p class="txt3">{{ $t("tstsupp5_8") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img supp4 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>
@@ -144,7 +144,7 @@
           <p class="txt3">{{ $t("tstsupp6_5") }}</p>
         </div>
       </div>
-      <div class="team_right cov19_skud cctv txt3">
+      <div class="team_right supp5 cctv txt3">
         <a href="" class="primary_button vertical-button">
           <span>Asterisk</span>
           <svg>
@@ -177,7 +177,7 @@
           <p class="txt3">{{ $t("tstsupp7_14") }}</p>
         </div>
       </div>
-      <div class="diogram_right cat_block-img auto_skud np_fix txt3">
+      <div class="diogram_right cat_block-img supp6 np_fix txt3">
         <a href="" class="primary_button vertical-button">
           <span>What We Do</span>
           <svg>

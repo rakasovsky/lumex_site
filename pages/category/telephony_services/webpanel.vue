@@ -131,15 +131,7 @@
         </div>
       </div>
       <div class="team_right cov19_skud cctv webpanel5_1 txt3">
-        <a href="" class="primary_button vertical-button">
-          <span>Asterisk</span>
-          <svg>
-            <path
-              d="m14.4 1-.7.7 5 4.8h-18.7v1h18.8l-5.2 5.5.8.7 6.3-6.7z"
-              fill="currentColor"
-            ></path>
-          </svg>
-        </a>
+        
       </div>
     </section>
     <Footer />

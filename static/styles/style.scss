@@ -1178,6 +1178,38 @@ header {
         background-image: url(../assets/img/category/skud/cov.jpg);
         background-size: cover;
     }
+    .it2 {
+        background-image: url(../assets/img/pages/qu1.jpg);
+        background-size: cover;
+    }
+    .it5 {
+        background-image: url(../assets/img/pages/prot.jpeg);
+        background-size: cover;
+    }
+    .qua2 {
+        background-image: url(../assets/img/pages/qu1.jpg);
+        background-size: cover;
+    }
+    .qua4 {
+        background-image: url(../assets/img/pages/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpeg);
+        background-size: cover;
+    }
+    .qua6 {
+        background-image: url(../assets/img/pages/qu3.jpg);
+        background-size: cover;
+    }
+    .supp1 {
+        background-image: url(../assets/img/pages/qu1.jpg);
+        background-size: cover;
+    }
+    .supp3 {
+        background-image: url(../assets/img/pages/qu2.jpg);
+        background-size: cover;
+    }
+    .supp5 {
+        background-image: url(../assets/img/pages/ivr4.jpeg);
+        background-size: cover;
+    }
     .que1 {
         background-image: url(../assets/img/pages/qu1.jpg);
         background-size: cover;
@@ -1266,7 +1298,7 @@ header {
     }
     .webpanel5_1{
         background-image: url(../assets/img/dashboard/d5_3-min.png);
-        background-size: cover;
+        background-size: contain;
         
     }
     .webpanel5_2{
@@ -1345,6 +1377,15 @@ header {
         }
         .skud_cover {
             background-image: url(../assets/img/category/skud/acces2.jpg);
+        }
+        .supp_cover {
+            background-image: url(../assets/img/pages/supp.jpg);
+        }
+        .it_cover {
+            background-image: url(../assets/img/pages/ivr3.jpeg);
+        }
+        .qua_cover {
+            background-image: url(../assets/img/pages/qua.jpeg);
         }
         .gsm_cover {
             background-image: url(../assets/img/pages/voip6.webp);
@@ -1452,6 +1493,36 @@ header {
         }
         .auto_skud {
             background-image: url(../assets/img/category/skud/ac-min.jpg);
+            padding-top: 13%;
+            background-size: cover;
+        }
+        .it4 {
+            background-image: url(../assets/img/pages/sks2.jpg);
+            padding-top: 13%;
+            background-size: cover;
+        }
+        .qua3 {
+            background-image: url(../assets/img/pages/sks2.jpg);
+            padding-top: 13%;
+            background-size: cover;
+        }
+        .qua5 {
+            background-image: url(../assets/img/pages/miguelangel-miquelena-g8PLwil0i5A-unsplash.jpeg);
+            padding-top: 13%;
+            background-size: cover;
+        }
+        .supp2 {
+            background-image: url(../assets/img/pages/ast2.jpg);
+            padding-top: 13%;
+            background-size: cover;
+        }
+        .supp4 {
+            background-image: url(../assets/img/pages/photo_2022-10-17_12-57-38-min.jpg);
+            padding-top: 13%;
+            background-size: cover;
+        }
+        .supp6 {
+            background-image: url(../assets/img/pages/ast3.jpg);
             padding-top: 13%;
             background-size: cover;
         }
