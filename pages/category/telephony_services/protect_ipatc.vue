@@ -37,6 +37,9 @@
           <p class="txt3">{{ $t("tsppt2_1") }}</p>
           <p class="txt3">{{ $t("tsppt2_2") }}</p>
           <p class="txt3">{{ $t("tsppt2_3") }}</p>
+          <p class="txt3">{{ $t("tsppt3_2") }}</p>
+          <p class="txt3">{{ $t("tsppt3_4") }}</p>
+          <p class="txt3">{{ $t("tsppt3_6") }}</p>
         </div>
       </div>
       <div class="team_right prot1 cctv txt3">
@@ -59,11 +62,11 @@
           <h3 class="h_title fs24 txt3">{{ $t("tsppt3") }}</h3>
           <ul style="margin-top: 10px" class="category-list">
             <li><span class="checkmark"></span>{{ $t("tsppt3_1") }}</li>
-            <li><span class="checkmark"></span>{{ $t("tsppt3_2") }}</li>
+            
             <li><span class="checkmark"></span>{{ $t("tsppt3_3") }}</li>
-            <li><span class="checkmark"></span>{{ $t("tsppt3_4") }}</li>
+            
             <li><span class="checkmark"></span>{{ $t("tsppt3_5") }}</li>
-            <li><span class="checkmark"></span>{{ $t("tsppt3_6") }}</li>
+            
           </ul>
         </div>
       </div>
@@ -178,10 +181,14 @@
         <div>
           <p class="label txt3"><span class="lumex">L</span>umex / Asterisk</p>
           <h3 class="h_title fs24 txt3">{{ $t("tsppt9_1") }}</h3>
-          <p class="txt3">{{ $t("tsppt9_2") }}</p>
-          <p class="txt3">{{ $t("tsppt9_3") }}</p>
-          <p class="txt3">{{ $t("tsppt9_4") }}</p>
-          <p class="txt3">{{ $t("tsppt9_5") }}</p>
+          <ul style="margin-top: 10px" class="category-list">
+            <li><span class="checkmark"></span>{{ $t("tsppt9_2") }}</li>
+            <li><span class="checkmark"></span>{{ $t("tsppt9_3") }}</li>
+            <li><span class="checkmark"></span>{{ $t("tsppt9_4") }}</li>
+            <li><span class="checkmark"></span>{{ $t("tsppt9_5") }}</li>
+            
+          </ul>
+        
         </div>
       </div>
       <div class="team_right prot6 cctv txt3">
@@ -196,26 +203,7 @@
         </a>
       </div>
     </section>
-     <section class="category_diogram category_diogram2 joc2" id="s_auto">
-      <div class="diogram_left">
-        <div class="cloud__block4 jt">
-          <p class="label txt3"><span class="lumex">L</span>umex / Asterisk</p>
-          <h3 class="h_title fs24 txt3">{{ $t("tsppt10") }}</h3>
-          <a href="/contact"><p class="txt3">{{ $t("tsppt11") }}</p></a>
-        </div>
-      </div>
-      <div class="diogram_right cat_block-img prot5 np_fix txt3">
-        <a href="" class="primary_button vertical-button">
-          <span>What We Do</span>
-          <svg>
-            <path
-              d="m14.4 1-.7.7 5 4.8h-18.7v1h18.8l-5.2 5.5.8.7 6.3-6.7z"
-              fill="currentColor"
-            ></path>
-          </svg>
-        </a>
-      </div>
-    </section>
+
     <Footer />
   </div>
 </template>
@@ -272,4 +260,6 @@ export default {
 .txt3 {
   margin-bottom: 12px;
 }
+
+
 </style>

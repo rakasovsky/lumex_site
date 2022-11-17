@@ -1,10 +1,9 @@
 <template>
 <div>
   <div class="seo">
-      <h1>Ip АТС</h1>
-      <h2>Видеонаблюдение</h2>
-      <h2>Системы контроля доступа</h2>
-      <h2>Сервисный центр</h2>
+      <h1>{{ $t('main_h1')}}</h1>
+      <h2>{{ $t('main_h2')}}</h2>
+      <h2>{{ $t('main_h2_2')}}</h2>
   </div>
   <section class="who-we-are">
             <div class="who-we-are__container">

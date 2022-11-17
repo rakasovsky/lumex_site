@@ -3,9 +3,9 @@
     <Header />
     <section class="category">
       <div class="seo">
-        <h1>Организация систем контроля доступа в Харькове</h1>
-        <h2>Продажа СКУД ( сетевые, биометрические, турникеты, автономные)</h2>
-        <h2>Интеграция систем контроля и управления доступом</h2>
+        <h1> {{ $t("sks_h1") }}</h1>
+        <h2> {{ $t("sks_h2") }}</h2>
+        <h2> {{ $t("sks_h2_2") }}</h2>
       </div>
       <div class="category_container">
         <div class="category_cover sks_cover lumex__content"></div>
