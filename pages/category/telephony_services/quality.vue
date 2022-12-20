@@ -3,8 +3,8 @@
     <Header />
     <section class="category">
       <div class="seo">
-        <h1>Пріоритезація трафіку для покращення якості голосу в IP-телефонії</h1>
-        <h2>Пріоритезації трафіку (QoS) в IP-телефонії</h2>
+        <h1>Пріоритизація трафіку для покращення якості голосу в IP-телефонії</h1>
+        <h2>Пріоритизації трафіку (QoS) в IP-телефонії</h2>
         <h2>Роботи з налаштування функцій пріоритезації трафіку (QoS)</h2>
       </div>
       <div class="category_container">
@@ -41,9 +41,12 @@
           <p class="label txt3"><span class="lumex">L</span>umex / Asterisk</p>
           <h3 class="h_title fs24 txt3">{{ $t("tsqua1_5") }}</h3>
           <p class="txt3">{{ $t("tsqua2") }}</p>
-          <p class="txt3">{{ $t("tsqua2_1") }}</p>
-          <p class="txt3">{{ $t("tsqua2_2") }}</p>
-          <p class="txt3">{{ $t("tsqua2_3") }}</p>
+          <ul  class="category-list">
+            <li class="txt3"><span class="checkmark"></span>{{ $t("tsqua2_1") }}</li>
+            <li class="txt3"><span class="checkmark"></span>{{ $t("tsqua2_2") }}</li>
+            <li class="txt3"><span class="checkmark"></span>{{ $t("tsqua2_3") }}</li>
+          </ul>
+   
           <p class="txt3">{{ $t("tsqua2_4") }}</p>
         </div>
       </div>

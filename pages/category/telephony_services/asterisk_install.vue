@@ -3,9 +3,9 @@
     <Header />
     <section class="category">
       <div class="seo">
-        <h1>Организация систем контроля доступа в Харькове</h1>
-        <h2>Продажа СКУД ( сетевые, биометрические, турникеты, автономные)</h2>
-        <h2>Интеграция систем контроля и управления доступом</h2>
+        <h1>{{ $t('tsai_seo_h1')}}</h1>
+        <h2>{{ $t('tsai_seo_h2')}} </h2>
+        <h2>{{ $t('tsai_seo_h2_2')}} </h2>
       </div>
       <div class="category_container">
         <div class="category_cover ast_cover lumex__content"></div>
@@ -164,22 +164,39 @@
 
 <script>
 export default {
-  head: {
-    title: "Продажа и обслуживание систем контроля доступа в Харькове",
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content:
-          "Lumex - системы безопасности и связи: Продажа, установка и настройка видеодомофонов, турникетов и шлагбаумов, систем контроля доступа, детекция температуры тела, для борьбы с Covid-19. Готовые решения для IT-компаний, Бизнес-центров, Производственных помещений, Складов и Парковок",
+  computed: {
+    locale() {
+      return this.$i18n.localeProperties.code;
+    },
+  },
+
+  head() {
+    const heads = {
+      ua: {
+        title:
+          "Asterisk IP-АТС - встановлення, сервісне обслуговування АТС, віртуальна IP-АТС для бізнесу",
+        meta: [
+          {
+            hid: "description",
+            name: "description",
+            content:
+              "Налаштування віртуальної IP-АТС Asterisk для бізнесу. Організація зв’язку для підприємств та кол-центрів на базі IP телефонії",
+          },
+        ],
       },
-      {
-        hid: "keywords",
-        name: "keywords",
-        content:
-          "Система контроля доступа, домофон, видеодомофон, турникеты, шлагбаумы, детекция температуры COV19",
+      ru: {
+        title: "Asterisk IP-АТС - установка, сервисное обслуживание АТС, виртуальная IP-АТС для бизнеса",
+        meta: [
+          {
+            hid: "description",
+            name: "description",
+            content:
+              "Настройка виртуальной IP-АТС Asterisk для бизнеса. Организация связи для предприятий и кол-центров на базе IP телефонии",
+          },
+        ],
       },
-    ],
+    };
+    return heads[this.locale];
   },
   mounted() {
     const tl = gsap.timeline();

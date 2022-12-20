@@ -3,9 +3,8 @@
     <Header />
     <section class="category">
       <div class="seo">
-        <h1>Организация систем контроля доступа в Харькове</h1>
-        <h2>Продажа СКУД ( сетевые, биометрические, турникеты, автономные)</h2>
-        <h2>Интеграция систем контроля и управления доступом</h2>
+        <h1>{{ $t('tsgsm_seo_h1')}}</h1>
+        <h2>{{ $t('tsgsm_seo_h2')}} </h2>
       </div>
       <div class="category_container">
         <div class="category_cover gsm_cover lumex__content"></div>
@@ -62,23 +61,42 @@
 
 <script>
 export default {
-  head: {
-    title: "Продажа и обслуживание систем контроля доступа в Харькове",
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content:
-          "Lumex - системы безопасности и связи: Продажа, установка и настройка видеодомофонов, турникетов и шлагбаумов, систем контроля доступа, детекция температуры тела, для борьбы с Covid-19. Готовые решения для IT-компаний, Бизнес-центров, Производственных помещений, Складов и Парковок",
-      },
-      {
-        hid: "keywords",
-        name: "keywords",
-        content:
-          "Система контроля доступа, домофон, видеодомофон, турникеты, шлагбаумы, детекция температуры COV19",
-      },
-    ],
+
+  computed: {
+    locale() {
+      return this.$i18n.localeProperties.code;
+    },
   },
+
+  head() {
+    const heads = {
+      ua: {
+        title:
+          "GSM шлюзи до IP-телефонії. GSM-шлюз з Asterisk, налаштування, ремонт, оренда GSM портів",
+        meta: [
+          {
+            hid: "description",
+            name: "description",
+            content:
+              "Інтеграція GSM з IP-АТС Asterisk, оренда GSM портів для хмарної АТС, обслуговування GSM-шлюзів",
+          },
+        ],
+      },
+      ru: {
+        title: "GSM шлюзы к IP-телефонії. GSM-шлюз з Asterisk, настройка, ремонт, аренда GSM портов",
+        meta: [
+          {
+            hid: "description",
+            name: "description",
+            content:
+              "Интеграция GSM с IP-ATC Asterisk, аренда GSM портов для облачной АТС, обслуживание GSM-шлюзов",
+          },
+        ],
+      },
+    };
+    return heads[this.locale];
+  },
+
   mounted() {
     const tl = gsap.timeline();
 

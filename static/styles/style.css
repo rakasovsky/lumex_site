@@ -3379,7 +3379,7 @@ footer .footer_bottom .copyright p:last-child {
     -webkit-transition-delay: 2s;
             transition-delay: 2s;
     list-style: none;
-    color: white;
+    color: black;
   }
   header .m_li {
     font-size: 19px;
@@ -3556,7 +3556,7 @@ footer .footer_bottom .copyright p:last-child {
     -webkit-transition-delay: 2s;
             transition-delay: 2s;
     list-style: none;
-    color: white;
+    color: black;
   }
   header .m_li {
     font-size: 20px;

@@ -3,9 +3,9 @@
     <Header />  
     <section class="category">
         <div class="seo">
-            <h1>Облачная атс, виртуальная атс,  ip атс, ip-телефония,айпи телефония, мини атс</h1>
-            <h2>Индивидуальная настройка Asterisk</h2>
-            <h2>АТС Panasonic</h2>
+            <h1>{{ $t('tel_seo_h1')}}</h1>
+            <h2>{{ $t('tel_seo_h2')}} </h2>
+            <h2>{{ $t('tel_seo_h2_2')}}</h2>
         </div>
         <div class="category_container">
             <div class="category_cover lumex__content">
@@ -262,21 +262,41 @@
 
 <script>
 export default {
-    head: {
-        title: 'Lumex.in.ua | Харьков | Купить IP АТС  Виртуальная АТС GSM-шлюз',
-        meta: [
-        {
-            hid: 'description',
-            name: 'description',
-            content: 'Современные коммуникационные технологии | продажа и обслуживание оборудование для цифровых и аналоговых атс | GSM-шлюзы | АТС Panasonic'
-        },
-        {
-            hid: 'keywords',
-            name: 'keywords',
-            content: 'Облачная телефония, Виртуальная АТС, GSM-шлюз, IP-АТС, продажа, установка, сервис'
-          }
-        ],
+
+computed: {
+    locale() {
+      return this.$i18n.localeProperties.code;
     },
+  },
+
+  head() {
+    const heads = {
+      ua: {
+        title:
+          "Lumex: IP-телефонія для бізнесу. Хмарна та віртуальна IP-АТС. Цифрова міні-АТС, обслуговування, налаштування, ремонт АТС",
+        meta: [
+          {
+            hid: "description",
+            name: "description",
+            content:
+              "IP-АТС - хмарні та апаратні рішення. Налаштування Asterisk. Обслуговання існуючої мині-АТС, модернізація, програмування, ремонт АТС. IP-телефони, GSM на IP шлюзи. ",
+          },
+        ],
+      },
+      ru: {
+        title: "Lumex.in.ua | Харьков | Купить IP АТС  Виртуальная АТС GSM-шлюз",
+        meta: [
+          {
+            hid: "description",
+            name: "description",
+            content:
+              "Современные коммуникационные технологии | продажа и обслуживание оборудование для цифровых и аналоговых атс | GSM-шлюзы | АТС Panasonic",
+          },
+        ],
+      },
+    };
+    return heads[this.locale];
+  },
     mounted () {
 
         const tl = gsap.timeline();
