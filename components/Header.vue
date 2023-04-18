@@ -11,20 +11,25 @@
           </nuxt-link>
           <div class="contacts">
             <p>
-              <span><a href="tel://0661082211">+380 66 108-2211</a></span>
-              <span
-                ><nuxt-link :to="localePath('/contact')">{{
+              <span><a href="tel://0661082211">+380 66 108 22 11</a></span>
+              <span>
+                  <a href="https://telegram.me/alexlumex"><img src="../static/assets/img/icons8-telegram-48.png" style="width:20px;height:20px;transform: translateY(5px);margin-left: 15px;"></a>
+              </span>
+              <span><nuxt-link :to="localePath('/contact')">{{
                   $t("contact_info")
-                }}</nuxt-link></span
-              >
+                }}</nuxt-link></span>
+                
             </p>
             <p>
+              <span>
+                <a href="tel://0661969444"> +380 66 196 94 44</a>
+              </span>
+              <span>
+                  <a href="viber://chat?number=+380661969444"><img src="../static/assets/img/icons8-viber-48.png" style="width:20px;height:20px;transform: translateY(5px);margin-left: 15px;"></a>
+                </span>
               <span
-                ><a href="tel://+380 57 714-3074"> +380 57 714-3074</a></span
-              >
-              <span
-                ><a href="mailto:info@lumex.in.ua"> info@lumex.in.ua</a></span
-              >
+                ><a href="mailto:info@lumex.in.ua"> info@lumex.in.ua</a></span>
+                
             </p>
           </div>
         </div>

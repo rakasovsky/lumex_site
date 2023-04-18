@@ -53,10 +53,14 @@
                         <h4 class="title fs24"><span class="lumex">L</span>umex</h4>
                         <p>Харьков</p>
                         <p>Сумская 26</p>
-                        <p><a href="tell://+380577143074">+380 57 714-3074</a></p>
-                        <p><a href="tell://0661082211">+380 66 108-2211</a></p>
+                        <p><a href="tel://0661969444">+380 66 196-9444</a></p>
+                        <p><a href="tel://0661082211">+380 66 108-2211</a></p>
                         <p><a href="mailto:info@lumex.in.ua">info@lumex.in.ua</a></p>
                         <p><a href="mailto:support@lumex.in.ua">support@lumex.in.ua</a></p>
+                        <p>
+                            <a href="https://telegram.me/alexlumex"><img src="../static/assets/img/icons8-telegram-48.png" style="width:20px;height:20px;margin-top:3px;"></a>
+                            <a href="viber://chat?number=+380661969444"><img src="../static/assets/img/icons8-viber-48.png" style="width:20px;height:20px;"></a>
+                        </p>
                     </div>
                 </div>
             </div>
